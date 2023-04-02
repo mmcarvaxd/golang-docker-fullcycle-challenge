@@ -20,4 +20,4 @@ WORKDIR /var/www
 
 COPY --from=builder /var/www/fullcycle .
 
-CMD [ "./fullcycle" ]
+ENTRYPOINT [ "./fullcycle" ]
